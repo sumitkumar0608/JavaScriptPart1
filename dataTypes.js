@@ -36,8 +36,11 @@ const anotherid = Symbol(123)
 console.log(id == anotherid);
 
 //Array is []
-//Obj is { }
 
+createItemArray = [1,2,3,4]
+
+//Obj is { }
+//child object can be create inside of a object
 createItem = {
     firstName:"sumit",
     lastName:"kumar",
