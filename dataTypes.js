@@ -37,9 +37,24 @@ console.log(id == anotherid);
 
 //Array is []
 //Obj is { }
+
+createItem = {
+    firstName:"sumit",
+    lastName:"kumar",
+    userName:"kumarsumit195",
+    userEmail:"sumit@gmail.com",
+    questionare:{
+        question:"What is your faviorite color",
+        answer:"White"
+    }
+}
+console.log(typeof createItem)
+console.log(createItem.firstName)
+console.log(createItem.questionare.question)
+
 // function is (){}, it can be stored in a variable as well.
 
 const functionVal = function() {console.log("Hello from function");
 }
-functionVal
-console.log(typeof functionVal)
+//functionVal
+//console.log(typeof functionVal)
